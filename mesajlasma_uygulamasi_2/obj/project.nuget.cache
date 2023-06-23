@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YP3fZhUQEJslZRpN/00jjQTj1Mg1QgZy2IqsjiNQS8jtYKdl/GQHyl9cqF9UuP2B8VeYMfbpCyVniE0ibJEhdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\furka\\Desktop\\gp 2\\mesajlasma_uygulamasi_2\\mesajlasma_uygulamasi_2\\mesajlasma_uygulamasi_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\furka\\.nuget\\packages\\mqttnet\\4.2.1.781\\mqttnet.4.2.1.781.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\mqttnet.extensions.managedclient\\4.2.1.781\\mqttnet.extensions.managedclient.4.2.1.781.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MQTTnet/4.2.1.781": {
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "assemblyVersion": "4.2.1.781",
+            "fileVersion": "4.2.1.781"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.2.1.781": {
+        "dependencies": {
+          "MQTTnet": "4.2.1.781"
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "assemblyVersion": "4.2.1.781",
+            "fileVersion": "4.2.1.781"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MQTTnet/4.2.1.781": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oKPAoW1Ynukm6ws6P3NmmMlNb3xIlPVf/89WVCkoWOJdz1dYtAdGYRdqe876pVsPru4j0uyU/hKf7iL3NU1r6w==",
+      "path": "mqttnet/4.2.1.781",
+      "hashPath": "mqttnet.4.2.1.781.nupkg.sha512"
+    },
+    "MQTTnet.Extensions.ManagedClient/4.2.1.781": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JkW4/p9ZgfV/w33AO1Ug5liAnQCdcXoytKx4BVgU5LznaasMDv24skMKkGyOf+/XO24OdFbbpx8kr9u13HJ/7w==",
+      "path": "mqttnet.extensions.managedclient/4.2.1.781",
+      "hashPath": "mqttnet.extensions.managedclient.4.2.1.781.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+﻿<Window x:Class="mesajlasma_uygulamasi_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mesajlasma_uygulamasi_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#EDEDED">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="20" Orientation="Horizontal" VerticalAlignment="Center">
+            <Label Content="MQTT Broker URL:" VerticalAlignment="Center" FontSize="16"/>
+            <TextBox x:Name="BrokerUrlTextBox" Margin="10,0" VerticalAlignment="Center" Width="300" FontSize="16" BorderBrush="#CCCCCC" BorderThickness="1" Padding="5"/>
+            <Button x:Name="ConnectButton" Margin="10,0" VerticalAlignment="Center" Width="100" Content="Bağlan" FontSize="16" Background="#4CAF50" Foreground="White" Click="ConnectButton_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="20" Orientation="Horizontal" VerticalAlignment="Center">
+            <Label Content="Başlık:" VerticalAlignment="Center" FontSize="16"/>
+            <TextBox x:Name="TopicTextBox" Margin="10,0" VerticalAlignment="Center" Width="300" FontSize="16" BorderBrush="#CCCCCC" BorderThickness="1" Padding="5"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Margin="20" Orientation="Horizontal" VerticalAlignment="Center">
+            <Label Content="Mesaj:" VerticalAlignment="Center" FontSize="16"/>
+            <TextBox x:Name="MessageTextBox" Margin="10,0" VerticalAlignment="Center" Width="300" FontSize="16" BorderBrush="#CCCCCC" BorderThickness="1" Padding="5"/>
+            <Button x:Name="SendButton" Margin="10,0" VerticalAlignment="Center" Width="100" Content="Gönder" FontSize="16" Background="#2196F3" Foreground="White" Click="SendButton_Click"/>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="3" Margin="20" VerticalScrollBarVisibility="Auto">
+            <TextBlock x:Name="LogTextBlock" TextWrapping="Wrap" FontSize="16" Foreground="#333333" Padding="10"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
